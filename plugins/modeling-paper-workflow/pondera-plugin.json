@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "modeling-paper-workflow",
+  "version": "1.0.0",
+  "description": "【数学建模】建模论文写作流程：审题、假设、符号、模型、求解、检验、灵敏度到结论的逐节写法与失分点。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

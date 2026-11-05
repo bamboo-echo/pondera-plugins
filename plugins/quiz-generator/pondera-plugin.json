@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "quiz-generator",
+  "version": "1.0.0",
+  "description": "【教学】知识点出题：按认知层级生成选择题、填空题与简答题，配干扰项设计与答案解析。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

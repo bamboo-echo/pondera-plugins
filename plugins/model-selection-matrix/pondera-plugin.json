@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "model-selection-matrix",
+  "version": "1.0.0",
+  "description": "【数学建模】模型选型决策矩阵：按题型、数据规模、可解释性、求解成本给候选模型打分并给出取舍理由。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

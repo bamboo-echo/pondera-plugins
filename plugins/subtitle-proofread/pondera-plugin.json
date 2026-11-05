@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "subtitle-proofread",
+  "version": "1.0.0",
+  "description": "【影音】字幕校对：检查 SRT 时间轴、行长、CPS、断句与术语一致性，输出逐条修正。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "citation-format-check",
+  "version": "1.0.0",
+  "description": "【学术写作】参考文献格式核查：按 GB/T 7714-2015 或 APA 7 校验条目要素、顺序与标点，输出逐条修正。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

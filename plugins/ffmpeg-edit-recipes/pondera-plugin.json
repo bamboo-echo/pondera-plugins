@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "ffmpeg-edit-recipes",
+  "version": "1.0.0",
+  "description": "【影音】ffmpeg 剪辑配方：裁剪、转码、压缩、抽帧、字幕烧录与批量处理的真实命令模板。本插件只产出命令，需用户已安装 ffmpeg。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

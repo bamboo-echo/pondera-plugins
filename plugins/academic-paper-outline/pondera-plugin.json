@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "academic-paper-outline",
+  "version": "1.0.0",
+  "description": "【学术写作】论文结构大纲：按 IMRaD 或学位论文/竞赛论文结构规划章节、贡献陈述与图表分工。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

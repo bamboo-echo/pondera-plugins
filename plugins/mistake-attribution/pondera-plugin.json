@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "mistake-attribution",
+  "version": "1.0.0",
+  "description": "【教学】错题归因：把错题分为知识缺口、概念混淆、审题、计算、策略五类，给出针对性干预方案。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

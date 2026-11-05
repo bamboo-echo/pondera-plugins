@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "peer-review-response",
+  "version": "1.0.0",
+  "description": "【学术写作】审稿意见回复：把审稿人意见逐条拆解，产出 point-by-point 回复信与修改说明。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "sensitivity-analysis-checklist",
+  "version": "1.0.0",
+  "description": "【数学建模】灵敏度分析清单：选定关键参数、设计扰动方案、给出一致性判据与报告表格。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}
