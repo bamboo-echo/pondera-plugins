@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "sql-migration-audit",
+  "version": "1.0.0",
+  "description": "审计数据库迁移脚本：判断 PostgreSQL / MySQL 的锁级别、全表重写风险、回填成本与回滚路径。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

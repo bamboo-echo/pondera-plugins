@@ -1,0 +1,23 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "godoc-index-mcp",
+  "version": "0.1.0",
+  "description": "本地 Go 模块源码索引 MCP server 声明示例（示例，需自行提供 server）：按符号检索依赖源码。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "mcpServers": {
+      "godoc-index": {
+        "type": "stdio",
+        "command": "godoc-index-mcp",
+        "args": [
+          "--root",
+          "."
+        ],
+        "auto_start": false,
+        "display_name": "Go Doc Index",
+        "description": "示例，需自行提供 server：把 command 换成本机已编译的索引服务可执行文件后才可连接。"
+      }
+    }
+  }
+}

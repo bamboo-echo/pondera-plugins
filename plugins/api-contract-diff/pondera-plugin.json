@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "api-contract-diff",
+  "version": "1.0.0",
+  "description": "对比新旧 API 契约（OpenAPI / JSON Schema / 路由清单），列出破坏性变更并给出兼容过渡方案。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

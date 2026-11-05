@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "dockerfile-slim",
+  "version": "1.0.0",
+  "description": "分析 Dockerfile 的体积与构建缓存问题，给出多阶段改造、层合并与 .dockerignore 方案。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

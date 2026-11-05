@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "long-doc-summary",
+  "version": "1.0.0",
+  "description": "长文档分层摘要：先分段提炼，再收敛全局结论，保留数字、出处与事实/观点边界。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

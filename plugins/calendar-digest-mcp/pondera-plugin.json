@@ -1,0 +1,23 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "calendar-digest-mcp",
+  "version": "0.1.0",
+  "description": "日程与待办聚合 MCP server 声明示例（示例，需自行提供 server）：把当天日程与未完成事项汇总成晨间简报。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "mcpServers": {
+      "calendar-digest": {
+        "type": "stdio",
+        "command": "calendar-digest-mcp",
+        "args": [
+          "--days",
+          "1"
+        ],
+        "auto_start": false,
+        "display_name": "Calendar Digest",
+        "description": "示例，需自行提供 server：把 command 换成本机已实现的日程聚合服务可执行文件后才可连接。"
+      }
+    }
+  }
+}
