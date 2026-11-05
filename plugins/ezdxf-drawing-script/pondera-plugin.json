@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "ezdxf-drawing-script",
+  "version": "1.0.0",
+  "description": "【CAD】ezdxf 脚本读写 DXF：批量生成图元、图层与标注，或读回实体做统计。本插件只产出 Python 脚本，需用户自备 Python + ezdxf 与 CAD 软件。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

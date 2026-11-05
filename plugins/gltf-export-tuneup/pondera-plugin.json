@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "gltf-export-tuneup",
+  "version": "1.0.0",
+  "description": "【Blender】glTF/OBJ 导出优化：给出减面、纹理与导出参数脚本，控制体积与材质数量。本插件不自带导出能力，需用户在 Blender 中执行。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

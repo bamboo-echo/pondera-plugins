@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "freecad-parametric-macro",
+  "version": "1.0.0",
+  "description": "【CAD】FreeCAD 参数化宏：用 Part/Spreadsheet 驱动尺寸与阵列，产出可粘贴到宏编辑器的 Python。本插件不自带建模能力，需用户已安装 FreeCAD。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

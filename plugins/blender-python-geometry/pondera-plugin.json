@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "blender-python-geometry",
+  "version": "1.0.0",
+  "description": "【Blender】bpy 脚本生成几何体与阵列：产出可粘贴到脚本编辑器的 Python 代码。本插件不自带建模能力，需用户已安装 Blender。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

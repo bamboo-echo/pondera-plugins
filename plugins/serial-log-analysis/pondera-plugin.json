@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "serial-log-analysis",
+  "version": "1.0.0",
+  "description": "【嵌入式】串口/示波器日志分析：解析带时间戳的串口日志，找丢帧、超时、复位与总线错误，输出可运行的 pyserial 采集脚本。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

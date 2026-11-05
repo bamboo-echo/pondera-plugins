@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "drawing-annotation-standard",
+  "version": "1.0.0",
+  "description": "【CAD】制图规范审计：检查标注、公差、尺寸链、图层线型与标题栏是否合规，输出问题清单。本插件不自带制图能力，只产出检查清单与 ezdxf 读图脚本。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

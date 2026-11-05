@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "blender-topology-audit",
+  "version": "1.0.0",
+  "description": "【Blender】拓扑与面数检查：用 bmesh 脚本统计非流形边、N-gon、松散点与面数预算。本插件不自带建模能力，需用户在 Blender 中运行脚本。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

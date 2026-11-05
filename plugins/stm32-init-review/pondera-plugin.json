@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "stm32-init-review",
+  "version": "1.0.0",
+  "description": "【嵌入式】STM32 外设初始化审查：时钟树、GPIO 模式、NVIC 优先级、DMA 与 HAL 返回值，输出问题清单。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

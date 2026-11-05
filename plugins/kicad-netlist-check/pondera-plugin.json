@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "kicad-netlist-check",
+  "version": "1.0.0",
+  "description": "【嵌入式】KiCad 网表与 ERC 检查：导出网表后核对单端网络、电源引脚、去耦与连接器映射，输出问题清单。本插件需用户已安装 KiCad。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}
