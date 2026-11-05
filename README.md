@@ -4,13 +4,13 @@ Pondera 桌面应用（Settings → 能力 → 插件 → 插件市场）读取�
 
 当前收录 62 个插件，覆盖六个分类与 13 个领域，每个分类都同时包含纯 skill、slash command、MCP server 声明三种形态；其中 6 条 MCP 条目只声明 server，不含实现（`description` 已注明「示例，需自行提供 server」）。
 
-领域归属写在 `description` 的 `【领域】` 前缀里（索引没有 `tags` 字段，写了也不会被解析），面板分类仍只用六类取值。
+领域归属写在索引条目的 `domain` 字段（自由文本，沿用下面 13 个领域名）；缺省为空，不影响解析与旧筛选，面板按 `domain` 聚合 chips。分类仍只用六类取值。
 
 ## 领域覆盖
 
 | 领域 | 条数 | 插件 |
 | --- | --- | --- |
-| 学术写作 | 5 | academic-paper-outline、citation-format-check、peer-review-response、abstract-intro-polish、lab-report-audit |
+| 学术写作 | 6 | academic-paper-outline、citation-format-check、peer-review-response、abstract-intro-polish、lab-report-audit、paper-fast-read |
 | 数学建模 | 4 | modeling-paper-workflow、model-selection-matrix、sensitivity-analysis-checklist、model-data-chart-standard |
 | Blender | 4 | blender-python-geometry、blender-topology-audit、gltf-export-tuneup、uv-unwrap-checklist |
 | CAD | 4 | ezdxf-drawing-script、freecad-parametric-macro、drawing-annotation-standard、autocad-lisp-scr |
@@ -19,10 +19,10 @@ Pondera 桌面应用（Settings → 能力 → 插件 → 插件市场）读取�
 | 影音 | 4 | ffmpeg-edit-recipes、subtitle-proofread、audio-denoise-chain、image-batch-naming |
 | 教学 | 3 | quiz-generator、mistake-attribution、lecture-outline |
 | 法律合规 | 2 | contract-clause-diff、privacy-policy-audit |
-| 本地化 | 2 | i18n-copy-review、long-text-segmentation |
-| 运维 | 3 | systemd-unit-audit、nginx-config-check、log-triage-runbook |
-| 测试 | 2 | test-case-gap-analysis、repro-steps-standardizer |
-| 移动端/游戏 | 2 | flutter-layout-audit、unity-asset-naming |
+| 本地化 | 3 | i18n-copy-review、long-text-segmentation、glossary-lint-mcp |
+| 运维 | 5 | systemd-unit-audit、nginx-config-check、log-triage-runbook、dockerfile-slim、sql-migration-audit |
+| 测试 | 3 | test-case-gap-analysis、repro-steps-standardizer、api-contract-diff |
+| 移动端·游戏 | 2 | flutter-layout-audit、unity-asset-naming |
 
 涉及 Blender / FreeCAD / AutoCAD / KiCad / Unity 的条目**不自带建模或制图能力**：它们产出的是脚本、宏或检查清单，实际执行依赖用户已安装对应软件（`ezdxf`、`ffmpeg` 之类同理）。
 
@@ -71,6 +71,7 @@ Pondera 只认这几个字段（多余字段会被忽略，但下面的字段名
 | `version` | 版本号，显示为 `v1.2.0` |
 | `author` | 字符串，或 `{ "name", "url" }`（也接受 `email`） |
 | `category` | 中文分类，见下表 |
+| `domain` | 可选领域名（如 `CAD`、`Blender`、`学术写作`）；缺省为空，不产生 warning，面板按它聚合领域 chips |
 | `icon` / `logo` | 图标 URL 或本地相对路径；加载失败时 UI 回退到首字母 |
 | `featured` | `true` 时进入「推荐」筛选与精选区 |
 | `permissions` | 字符串数组，只作展示（如 `读取工作区源码`），不代表真实权限 |
