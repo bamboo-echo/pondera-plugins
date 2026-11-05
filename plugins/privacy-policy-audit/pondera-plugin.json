@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "privacy-policy-audit",
+  "version": "1.0.0",
+  "description": "【法律合规】隐私政策必查项审计：按收集范围、目的、共享、留存、用户权利、跨境传输逐项核对，输出缺口清单。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

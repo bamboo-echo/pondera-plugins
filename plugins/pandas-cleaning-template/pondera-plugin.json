@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "pandas-cleaning-template",
+  "version": "1.0.0",
+  "description": "【数据分析】pandas 清洗模板：缺失值、类型、重复、异常值与日期解析的标准流程与可运行代码。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "sql-plan-review",
+  "version": "1.0.0",
+  "description": "【数据分析】SQL 执行计划审读：识别全表扫描、错误连接顺序、隐式类型转换与统计信息缺失，给出改写与索引建议。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

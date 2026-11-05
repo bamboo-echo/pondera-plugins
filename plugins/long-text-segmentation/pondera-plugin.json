@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "long-text-segmentation",
+  "version": "1.0.0",
+  "description": "【本地化】长文分句翻译流程：切分、术语锚定、逐段翻译、回译校验与拼装，避免整篇机翻走形。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

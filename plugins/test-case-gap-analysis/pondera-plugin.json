@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "test-case-gap-analysis",
+  "version": "1.0.0",
+  "description": "【测试】测试用例补全：按等价类、边界值、状态迁移与异常路径找覆盖缺口，输出可直接落库的用例表。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

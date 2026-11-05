@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "contract-clause-diff",
+  "version": "1.0.0",
+  "description": "【法律合规】合同条款对比清单：逐条比对两个版本的责任、付款、违约、终止与管辖条款，输出差异表与风险标注。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

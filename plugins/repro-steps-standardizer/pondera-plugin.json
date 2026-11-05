@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "repro-steps-standardizer",
+  "version": "1.0.0",
+  "description": "【测试】复现步骤整理：把零散描述、聊天记录、录屏转成可判定的复现单，含环境、数据、期望/实际与最小化步骤。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

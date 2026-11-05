@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "i18n-copy-review",
+  "version": "1.0.0",
+  "description": "【本地化】i18n 文案审校：检查占位符、复数规则、长度溢出、日期货币格式、RTL 与硬编码字符串，输出逐条问题清单。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

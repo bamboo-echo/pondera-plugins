@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "nginx-config-check",
+  "version": "1.0.0",
+  "description": "【运维】Nginx 配置体检：检查反向代理、超时、缓存、安全头、TLS 与 location 匹配顺序，输出体检表与修正片段。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

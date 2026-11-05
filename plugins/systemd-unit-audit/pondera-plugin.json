@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "systemd-unit-audit",
+  "version": "1.0.0",
+  "description": "【运维】systemd 单元审查：核对 hardening 项、重启策略、资源限制与依赖顺序，给出可直接套用的 unit 片段。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

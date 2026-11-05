@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "unity-asset-naming",
+  "version": "1.0.0",
+  "description": "【移动端/游戏】Unity 资源命名与导入规范：生成可粘贴的 AssetPostprocessor 校验脚本，并审计命名、目录、贴图与模型导入设置。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

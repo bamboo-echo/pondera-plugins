@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "flutter-layout-audit",
+  "version": "1.0.0",
+  "description": "【移动端/游戏】Flutter 布局审查：定位 RenderFlex 溢出、无界约束、重复 build 与不必要重建，给可直接套用的 Widget 片段。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

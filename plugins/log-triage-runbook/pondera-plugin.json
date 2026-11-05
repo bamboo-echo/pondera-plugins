@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "log-triage-runbook",
+  "version": "1.0.0",
+  "description": "【运维】日志排障手册：按时间线与错误特征收敛假设，给出精确的 grep/journalctl 取证命令与判定条件。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}
