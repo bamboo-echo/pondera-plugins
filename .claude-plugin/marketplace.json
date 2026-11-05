@@ -30,7 +30,6 @@
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "开发工具",
-      "featured": true,
       "permissions": [
         "读取迁移脚本与 schema",
         "不连接数据库，不执行迁移"
@@ -251,6 +250,7 @@
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "界面设计",
+      "featured": true,
       "permissions": [
         "读取建模需求",
         "只产出 bpy 脚本，不调用 Blender"
@@ -287,6 +287,7 @@
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "界面设计",
+      "featured": true,
       "permissions": [
         "读取图纸参数与实体清单",
         "只产出脚本，不执行、不修改原图"
@@ -326,6 +327,18 @@
       "permissions": [
         "读取网格与贴图规格",
         "只产出脚本与清单，不修改 .blend"
+      ]
+    },
+    {
+      "name": "autocad-lisp-scr",
+      "source": "./autocad-lisp-scr",
+      "description": "【CAD】AutoCAD 原生脚本：AutoLISP 批量改图层与统计，.scr 命令序列，含 FILEDIA/CMDDIA 陷阱。需已安装 AutoCAD。",
+      "version": "1.0.0",
+      "author": "bamboo-echo",
+      "category": "界面设计",
+      "permissions": [
+        "读取图纸与脚本需求",
+        "只产出 .lsp/.scr，不在 AutoCAD 中执行"
       ]
     },
     {
@@ -438,6 +451,30 @@
       ]
     },
     {
+      "name": "model-data-chart-standard",
+      "source": "./model-data-chart-standard",
+      "description": "【数学建模】数据预处理与结果图表规范：缺失/异常值处理选择、图型匹配、坐标轴与结果表必备列。",
+      "version": "1.0.0",
+      "author": "bamboo-echo",
+      "category": "调研分析",
+      "permissions": [
+        "读取数据与结果表",
+        "输出规范与可运行 pandas 片段"
+      ]
+    },
+    {
+      "name": "power-query-big-excel",
+      "source": "./power-query-big-excel",
+      "description": "【数据分析】Power Query 与百万行 Excel：M 语言清洗大表、绕开 104 万行工作表上限与性能建议。",
+      "version": "1.0.0",
+      "author": "bamboo-echo",
+      "category": "调研分析",
+      "permissions": [
+        "读取表结构与数据源",
+        "只输出查询，不改工作簿"
+      ]
+    },
+    {
       "name": "paper-fast-read",
       "source": "./paper-fast-read",
       "description": "论文速读卡片：提取问题、方法、数据、基线、局限与可复现性，判断是否值得精读。",
@@ -481,6 +518,7 @@
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "featured": true,
       "permissions": [
         "读取研究主题与素材",
         "输出大纲，不代写正文"
@@ -583,13 +621,72 @@
       ]
     },
     {
+      "name": "audio-denoise-chain",
+      "source": "./audio-denoise-chain",
+      "description": "【影音】音频降噪链：afftdn / arnndn 与 loudnorm 参数，含过度降噪判据。arnndn 模型需自备。",
+      "version": "1.0.0",
+      "author": "bamboo-echo",
+      "category": "内容创作",
+      "permissions": [
+        "读取音频与噪声描述",
+        "只产出命令，不执行转码"
+      ]
+    },
+    {
+      "name": "image-batch-naming",
+      "source": "./image-batch-naming",
+      "description": "【影音】图片批处理与命名：ImageMagick 与 Pillow 脚本，覆盖缩放、水印、EXIF 剥离与统一命名。",
+      "version": "1.0.0",
+      "author": "bamboo-echo",
+      "category": "内容创作",
+      "permissions": [
+        "读取图片目录与命名规则",
+        "产出脚本，不覆盖原图"
+      ]
+    },
+    {
+      "name": "lecture-outline",
+      "source": "./lecture-outline",
+      "description": "【教学】讲义提纲：知识点拆层、课时与时间预算、练习配比与可观察的验收标准。",
+      "version": "1.0.0",
+      "author": "bamboo-echo",
+      "category": "内容创作",
+      "permissions": [
+        "读取主题与课时安排",
+        "输出提纲，不代写讲义全文"
+      ]
+    },
+    {
+      "name": "abstract-intro-polish",
+      "source": "./abstract-intro-polish",
+      "description": "【学术写作】摘要与引言润色：按信息密度改写摘要，按漏斗结构重排引言，给前后对照。",
+      "version": "1.0.0",
+      "author": "bamboo-echo",
+      "category": "内容创作",
+      "permissions": [
+        "读取摘要与引言文本",
+        "只润色表达，不改数据与结论"
+      ]
+    },
+    {
+      "name": "lab-report-audit",
+      "source": "./lab-report-audit",
+      "description": "【学术写作】实验报告审查：按数据完整性、图号引用、结论一致性与单位量纲打分并给扣分理由。",
+      "version": "1.0.0",
+      "author": "bamboo-echo",
+      "category": "内容创作",
+      "permissions": [
+        "读取实验报告与图表",
+        "输出评分表，不重做实验"
+      ]
+    },
+    {
       "name": "blog-outline",
       "source": "./blog-outline",
       "description": "技术博客大纲：锁定单一论点、搭建证据链、预设反例与读者画像。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
-      "featured": true,
       "permissions": [
         "读取用户素材",
         "生成大纲，不代写全文"
@@ -632,18 +729,6 @@
       "permissions": [
         "读取账单文件",
         "生成审计清单，不发起支付或取消操作"
-      ]
-    },
-    {
-      "name": "rebalance-checklist",
-      "source": "./rebalance-checklist",
-      "description": "组合再平衡检查：按阈值判断触发、计算偏离金额、给出执行顺序与成本约束。",
-      "version": "1.0.0",
-      "author": "bamboo-echo",
-      "category": "其他",
-      "permissions": [
-        "读取持仓与目标权重",
-        "只做计算，不提供投资建议"
       ]
     },
     {
