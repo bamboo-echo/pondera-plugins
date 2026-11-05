@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "lab-report-audit",
+  "version": "1.0.0",
+  "description": "【学术写作】实验报告审查：按数据完整性、图号引用、结论与数据一致性、公式与单位核对打分，输出可直接对照的检查表。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

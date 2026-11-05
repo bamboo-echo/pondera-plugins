@@ -1,8 +1,8 @@
 {
   "apiVersion": "pondera.io/plugin/v2",
-  "name": "rebalance-checklist",
+  "name": "power-query-big-excel",
   "version": "1.0.0",
-  "description": "组合再平衡检查清单：按阈值判断是否触发、计算偏差、给出执行顺序与成本约束。",
+  "description": "【数据分析】Power Query 与百万行 Excel：用 M 语言清洗大表、绕开 104 万行工作表上限，给出可粘贴的查询与性能建议。",
   "homepage": "https://github.com/bamboo-echo/pondera-plugins",
   "repository": "https://github.com/bamboo-echo/pondera-plugins",
   "contributes": {

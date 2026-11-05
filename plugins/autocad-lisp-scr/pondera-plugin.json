@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "autocad-lisp-scr",
+  "version": "1.0.0",
+  "description": "【CAD】AutoCAD 原生脚本：AutoLISP 读图元批量改图层/统计，以及 .scr 命令序列模板，含换行空格陷阱与 FILEDIA/CMDDIA 设置。需已安装 AutoCAD。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

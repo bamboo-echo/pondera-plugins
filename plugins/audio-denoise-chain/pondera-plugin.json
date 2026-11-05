@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "audio-denoise-chain",
+  "version": "1.0.0",
+  "description": "【影音】音频降噪链：ffmpeg 的 afftdn / arnndn 与 loudnorm 真实参数，含过度降噪判据与试听校验步骤。需已安装 ffmpeg，arnndn 模型需自备。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

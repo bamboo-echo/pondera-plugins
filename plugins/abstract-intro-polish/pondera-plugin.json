@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "abstract-intro-polish",
+  "version": "1.0.0",
+  "description": "【学术写作】摘要与引言润色：按信息密度改写摘要、按漏斗结构重排引言，给出改写前后对照规则。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

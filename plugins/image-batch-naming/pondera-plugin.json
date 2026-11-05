@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "image-batch-naming",
+  "version": "1.0.0",
+  "description": "【影音】图片批处理与命名：ImageMagick magick 与 Pillow 两套可运行脚本，覆盖缩放、水印、EXIF 剥离与统一命名。需自备相应工具。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

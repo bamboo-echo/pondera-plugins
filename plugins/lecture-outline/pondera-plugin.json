@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "lecture-outline",
+  "version": "1.0.0",
+  "description": "【教学】讲义提纲生成：从知识点拆到课时分配、时间预算与练习配比，输出可直接排课的教学大纲。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "model-data-chart-standard",
+  "version": "1.0.0",
+  "description": "【数学建模】数据预处理与结果图表规范：缺失值/异常值处理选择、图表类型匹配、坐标轴规范与结果表必备列。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}
