@@ -77,10 +77,11 @@
     {
       "name": "stm32-init-review",
       "source": "./stm32-init-review",
-      "description": "【嵌入式】STM32 外设初始化审查：时钟树、GPIO 模式、NVIC 优先级、DMA 与 HAL 返回值。",
+      "description": "STM32 外设初始化审查：时钟树、GPIO 模式、NVIC 优先级、DMA 与 HAL 返回值。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "开发工具",
+      "domain": "嵌入式",
       "permissions": [
         "读取固件源码与 CubeMX 配置",
         "只读审查，不改动生成代码"
@@ -89,10 +90,11 @@
     {
       "name": "kicad-netlist-check",
       "source": "./kicad-netlist-check",
-      "description": "【嵌入式】KiCad 网表与 ERC 检查：单端网络、电源引脚、去耦与连接器映射。需已安装 KiCad。",
+      "description": "KiCad 网表与 ERC 检查：单端网络、电源引脚、去耦与连接器映射。需已安装 KiCad。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "开发工具",
+      "domain": "嵌入式",
       "permissions": [
         "读取原理图与网表",
         "只产出检查清单，不修改工程"
@@ -101,10 +103,11 @@
     {
       "name": "serial-log-analysis",
       "source": "./serial-log-analysis",
-      "description": "【嵌入式】串口/示波器日志分析：定位丢帧、超时、复位与总线错误，输出 pyserial 采集脚本。",
+      "description": "串口/示波器日志分析：定位丢帧、超时、复位与总线错误，输出 pyserial 采集脚本。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "开发工具",
+      "domain": "嵌入式",
       "permissions": [
         "读取串口日志与示波器导出文件",
         "产出脚本，不在用户设备上自动运行"
@@ -113,10 +116,11 @@
     {
       "name": "systemd-unit-audit",
       "source": "./systemd-unit-audit",
-      "description": "【运维】systemd 单元审查：hardening、重启策略、资源限制与依赖顺序，给出可套用的 unit 片段。",
+      "description": "systemd 单元审查：hardening、重启策略、资源限制与依赖顺序，给出可套用的 unit 片段。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "开发工具",
+      "domain": "运维",
       "permissions": [
         "读取 unit 文件与 systemctl 输出",
         "不重启服务、不修改系统配置"
@@ -125,10 +129,11 @@
     {
       "name": "nginx-config-check",
       "source": "./nginx-config-check",
-      "description": "【运维】Nginx 配置体检：反向代理、超时、缓存、安全头、TLS 与 location 匹配顺序。",
+      "description": "Nginx 配置体检：反向代理、超时、缓存、安全头、TLS 与 location 匹配顺序。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "开发工具",
+      "domain": "运维",
       "permissions": [
         "读取 nginx 配置",
         "不执行 reload、不改配置文件"
@@ -137,10 +142,11 @@
     {
       "name": "log-triage-runbook",
       "source": "./log-triage-runbook",
-      "description": "【运维】日志排障手册：时间线对齐、假设收敛、journalctl/grep 取证命令与判定条件。",
+      "description": "日志排障手册：时间线对齐、假设收敛、journalctl/grep 取证命令与判定条件。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "开发工具",
+      "domain": "运维",
       "permissions": [
         "读取日志片段",
         "只读排障，不重启或清理服务"
@@ -149,10 +155,11 @@
     {
       "name": "test-case-gap-analysis",
       "source": "./test-case-gap-analysis",
-      "description": "【测试】测试用例补全：等价类、边界值、状态迁移与异常路径的覆盖缺口与新增用例表。",
+      "description": "测试用例补全：等价类、边界值、状态迁移与异常路径的覆盖缺口与新增用例表。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "开发工具",
+      "domain": "测试",
       "permissions": [
         "读取需求与已有用例",
         "只输出用例表，不写入测试管理系统"
@@ -161,10 +168,11 @@
     {
       "name": "repro-steps-standardizer",
       "source": "./repro-steps-standardizer",
-      "description": "【测试】复现步骤整理：把口语描述与录屏转成含环境、数据、期望/实际的可判定复现单。",
+      "description": "复现步骤整理：把口语描述与录屏转成含环境、数据、期望/实际的可判定复现单。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "开发工具",
+      "domain": "测试",
       "permissions": [
         "读取缺陷描述与日志",
         "输出复现单，自动脱敏敏感字段"
@@ -173,10 +181,11 @@
     {
       "name": "flutter-layout-audit",
       "source": "./flutter-layout-audit",
-      "description": "【移动端/游戏】Flutter 布局审查：RenderFlex 溢出、无界约束、重复 build 与硬编码尺寸。",
+      "description": "Flutter 布局审查：RenderFlex 溢出、无界约束、重复 build 与硬编码尺寸。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "开发工具",
+      "domain": "移动端·游戏",
       "permissions": [
         "读取 Dart 布局代码与构建日志",
         "只给最小改动片段"
@@ -185,10 +194,11 @@
     {
       "name": "unity-asset-naming",
       "source": "./unity-asset-naming",
-      "description": "【移动端/游戏】Unity 资源命名与导入规范：生成 AssetPostprocessor 校验脚本并审计导入设置。",
+      "description": "Unity 资源命名与导入规范：生成 AssetPostprocessor 校验脚本并审计导入设置。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "开发工具",
+      "domain": "移动端·游戏",
       "permissions": [
         "读取资源目录与导入配置",
         "只产出校验脚本，不在编辑器中执行"
@@ -246,10 +256,11 @@
     {
       "name": "blender-python-geometry",
       "source": "./blender-python-geometry",
-      "description": "【Blender】bpy 脚本生成几何体与阵列，产出可粘贴到脚本编辑器的 Python。本插件不自带建模能力，需已安装 Blender。",
+      "description": "bpy 脚本生成几何体与阵列，产出可粘贴到脚本编辑器的 Python。本插件不自带建模能力，需已安装 Blender。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "界面设计",
+      "domain": "Blender",
       "featured": true,
       "permissions": [
         "读取建模需求",
@@ -259,10 +270,11 @@
     {
       "name": "blender-topology-audit",
       "source": "./blender-topology-audit",
-      "description": "【Blender】拓扑与面数检查：用 bmesh 统计非流形边、N-gon、松散点与面数预算。需已安装 Blender。",
+      "description": "拓扑与面数检查：用 bmesh 统计非流形边、N-gon、松散点与面数预算。需已安装 Blender。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "界面设计",
+      "domain": "Blender",
       "permissions": [
         "读取网格或脚本需求",
         "只产出检查脚本，不修改场景"
@@ -271,10 +283,11 @@
     {
       "name": "gltf-export-tuneup",
       "source": "./gltf-export-tuneup",
-      "description": "【Blender】glTF/OBJ 导出优化：减面、纹理与导出参数脚本，控制体积与材质数量。需已安装 Blender。",
+      "description": "glTF/OBJ 导出优化：减面、纹理与导出参数脚本，控制体积与材质数量。需已安装 Blender。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "界面设计",
+      "domain": "Blender",
       "permissions": [
         "读取导出目标与资产信息",
         "只产出导出脚本，不执行导出"
@@ -283,10 +296,11 @@
     {
       "name": "ezdxf-drawing-script",
       "source": "./ezdxf-drawing-script",
-      "description": "【CAD】ezdxf 脚本读写 DXF：批量生成图元、图层与标注，或读回实体做统计。需自备 Python + ezdxf。",
+      "description": "ezdxf 脚本读写 DXF：批量生成图元、图层与标注，或读回实体做统计。需自备 Python + ezdxf。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "界面设计",
+      "domain": "CAD",
       "featured": true,
       "permissions": [
         "读取图纸参数与实体清单",
@@ -296,10 +310,11 @@
     {
       "name": "freecad-parametric-macro",
       "source": "./freecad-parametric-macro",
-      "description": "【CAD】FreeCAD 参数化宏：用 Part/Spreadsheet 驱动尺寸与阵列，产出可粘贴到宏编辑器的 Python。需已安装 FreeCAD。",
+      "description": "FreeCAD 参数化宏：用 Part/Spreadsheet 驱动尺寸与阵列，产出可粘贴到宏编辑器的 Python。需已安装 FreeCAD。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "界面设计",
+      "domain": "CAD",
       "permissions": [
         "读取零件参数需求",
         "只产出宏脚本，不调用 FreeCAD"
@@ -308,10 +323,11 @@
     {
       "name": "drawing-annotation-standard",
       "source": "./drawing-annotation-standard",
-      "description": "【CAD】制图规范审计：标注、公差、尺寸链、图层线型与标题栏合规检查，附 ezdxf 读图脚本。",
+      "description": "制图规范审计：标注、公差、尺寸链、图层线型与标题栏合规检查，附 ezdxf 读图脚本。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "界面设计",
+      "domain": "CAD",
       "permissions": [
         "读取 DXF 文件",
         "只读审计，不改图纸"
@@ -320,10 +336,11 @@
     {
       "name": "uv-unwrap-checklist",
       "source": "./uv-unwrap-checklist",
-      "description": "【Blender】UV 展开检查清单：接缝、展开方法、重叠、拉伸与图素密度，附可运行的 bpy UV 脚本。需已安装 Blender。",
+      "description": "UV 展开检查清单：接缝、展开方法、重叠、拉伸与图素密度，附可运行的 bpy UV 脚本。需已安装 Blender。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "界面设计",
+      "domain": "Blender",
       "permissions": [
         "读取网格与贴图规格",
         "只产出脚本与清单，不修改 .blend"
@@ -332,10 +349,11 @@
     {
       "name": "autocad-lisp-scr",
       "source": "./autocad-lisp-scr",
-      "description": "【CAD】AutoCAD 原生脚本：AutoLISP 批量改图层与统计，.scr 命令序列，含 FILEDIA/CMDDIA 陷阱。需已安装 AutoCAD。",
+      "description": "AutoCAD 原生脚本：AutoLISP 批量改图层与统计，.scr 命令序列，含 FILEDIA/CMDDIA 陷阱。需已安装 AutoCAD。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "界面设计",
+      "domain": "CAD",
       "permissions": [
         "读取图纸与脚本需求",
         "只产出 .lsp/.scr，不在 AutoCAD 中执行"
@@ -381,10 +399,11 @@
     {
       "name": "modeling-paper-workflow",
       "source": "./modeling-paper-workflow",
-      "description": "【数学建模】建模论文写作流程：审题、假设、符号、模型、求解、检验、灵敏度到结论的逐节写法。",
+      "description": "建模论文写作流程：审题、假设、符号、模型、求解、检验、灵敏度到结论的逐节写法。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "调研分析",
+      "domain": "数学建模",
       "permissions": [
         "读取赛题与草稿",
         "输出结构建议，不代写全文"
@@ -393,10 +412,11 @@
     {
       "name": "model-selection-matrix",
       "source": "./model-selection-matrix",
-      "description": "【数学建模】模型选型决策矩阵：按题型、数据规模、可解释性与求解成本打分并给取舍理由。",
+      "description": "模型选型决策矩阵：按题型、数据规模、可解释性与求解成本打分并给取舍理由。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "调研分析",
+      "domain": "数学建模",
       "permissions": [
         "读取消题信息",
         "输出候选模型对比表"
@@ -405,10 +425,11 @@
     {
       "name": "sensitivity-analysis-checklist",
       "source": "./sensitivity-analysis-checklist",
-      "description": "【数学建模】灵敏度分析清单：关键参数、扰动方案、一致性判据与报告表格。",
+      "description": "灵敏度分析清单：关键参数、扰动方案、一致性判据与报告表格。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "调研分析",
+      "domain": "数学建模",
       "permissions": [
         "读取模型参数与结果",
         "输出扰动方案，不虚构结果"
@@ -417,10 +438,11 @@
     {
       "name": "pandas-cleaning-template",
       "source": "./pandas-cleaning-template",
-      "description": "【数据分析】pandas 清洗模板：类型、缺失值、重复、异常值与日期解析的标准流程与可运行代码。",
+      "description": "pandas 清洗模板：类型、缺失值、重复、异常值与日期解析的标准流程与可运行代码。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "调研分析",
+      "domain": "数据分析",
       "permissions": [
         "读取数据文件结构",
         "产出脚本，不覆盖原始数据"
@@ -429,10 +451,11 @@
     {
       "name": "sql-plan-review",
       "source": "./sql-plan-review",
-      "description": "【数据分析】SQL 执行计划审读：全表扫描、连接顺序、隐式转换与统计信息缺失的改写建议。",
+      "description": "SQL 执行计划审读：全表扫描、连接顺序、隐式转换与统计信息缺失的改写建议。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "调研分析",
+      "domain": "数据分析",
       "permissions": [
         "读取 SQL 与执行计划",
         "不连接数据库、不执行语句"
@@ -441,10 +464,11 @@
     {
       "name": "excel-pivot-formula",
       "source": "./excel-pivot-formula",
-      "description": "【数据分析】Excel 透视表与公式配方：字段布局、SUMIFS/XLOOKUP 写法、刷新与校验规则。",
+      "description": "Excel 透视表与公式配方：字段布局、SUMIFS/XLOOKUP 写法、刷新与校验规则。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "调研分析",
+      "domain": "数据分析",
       "permissions": [
         "读取表结构与需求",
         "只输出公式与布局，不改工作簿"
@@ -453,10 +477,11 @@
     {
       "name": "model-data-chart-standard",
       "source": "./model-data-chart-standard",
-      "description": "【数学建模】数据预处理与结果图表规范：缺失/异常值处理选择、图型匹配、坐标轴与结果表必备列。",
+      "description": "数据预处理与结果图表规范：缺失/异常值处理选择、图型匹配、坐标轴与结果表必备列。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "调研分析",
+      "domain": "数学建模",
       "permissions": [
         "读取数据与结果表",
         "输出规范与可运行 pandas 片段"
@@ -465,10 +490,11 @@
     {
       "name": "power-query-big-excel",
       "source": "./power-query-big-excel",
-      "description": "【数据分析】Power Query 与百万行 Excel：M 语言清洗大表、绕开 104 万行工作表上限与性能建议。",
+      "description": "Power Query 与百万行 Excel：M 语言清洗大表、绕开 104 万行工作表上限与性能建议。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "调研分析",
+      "domain": "数据分析",
       "permissions": [
         "读取表结构与数据源",
         "只输出查询，不改工作簿"
@@ -514,10 +540,11 @@
     {
       "name": "academic-paper-outline",
       "source": "./academic-paper-outline",
-      "description": "【学术写作】论文结构大纲：按 IMRaD、学位论文或竞赛论文结构规划章节、贡献陈述与图表分工。",
+      "description": "论文结构大纲：按 IMRaD、学位论文或竞赛论文结构规划章节、贡献陈述与图表分工。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "domain": "学术写作",
       "featured": true,
       "permissions": [
         "读取研究主题与素材",
@@ -527,10 +554,11 @@
     {
       "name": "citation-format-check",
       "source": "./citation-format-check",
-      "description": "【学术写作】参考文献格式核查：按 GB/T 7714-2015 或 APA 7 校验条目要素、顺序与标点。",
+      "description": "参考文献格式核查：按 GB/T 7714-2015 或 APA 7 校验条目要素、顺序与标点。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "domain": "学术写作",
       "permissions": [
         "读取参考文献列表与正文引用",
         "输出逐条修正，不访问外部数据库"
@@ -539,10 +567,11 @@
     {
       "name": "peer-review-response",
       "source": "./peer-review-response",
-      "description": "【学术写作】审稿意见回复：逐条拆解意见，产出 point-by-point 回复信与修改位置说明。",
+      "description": "审稿意见回复：逐条拆解意见，产出 point-by-point 回复信与修改位置说明。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "domain": "学术写作",
       "permissions": [
         "读取审稿意见与稿件",
         "输出回复草稿，不替作者表态"
@@ -551,10 +580,11 @@
     {
       "name": "ffmpeg-edit-recipes",
       "source": "./ffmpeg-edit-recipes",
-      "description": "【影音】ffmpeg 剪辑配方：裁剪、转码、压缩、抽帧、字幕烧录与批量的真实命令模板。需已安装 ffmpeg。",
+      "description": "ffmpeg 剪辑配方：裁剪、转码、压缩、抽帧、字幕烧录与批量的真实命令模板。需已安装 ffmpeg。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "domain": "影音",
       "permissions": [
         "读取媒体信息",
         "只产出命令，不执行转码"
@@ -563,10 +593,11 @@
     {
       "name": "subtitle-proofread",
       "source": "./subtitle-proofread",
-      "description": "【影音】字幕校对：SRT 时间轴、行长、CPS、断句与术语一致性，输出逐条修正。",
+      "description": "字幕校对：SRT 时间轴、行长、CPS、断句与术语一致性，输出逐条修正。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "domain": "影音",
       "permissions": [
         "读取字幕与视频信息",
         "输出校对清单，不改原文件"
@@ -575,10 +606,11 @@
     {
       "name": "quiz-generator",
       "source": "./quiz-generator",
-      "description": "【教学】知识点出题：按认知层级生成选择题、填空题与简答题，配干扰项与解析。",
+      "description": "知识点出题：按认知层级生成选择题、填空题与简答题，配干扰项与解析。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "domain": "教学",
       "permissions": [
         "读取知识点与教材范围",
         "输出题目与答案，不编造事实"
@@ -587,10 +619,11 @@
     {
       "name": "mistake-attribution",
       "source": "./mistake-attribution",
-      "description": "【教学】错题归因：分为知识缺口、概念混淆、审题、计算、策略五类并给干预方案。",
+      "description": "错题归因：分为知识缺口、概念混淆、审题、计算、策略五类并给干预方案。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "domain": "教学",
       "permissions": [
         "读取错题与作答过程",
         "输出归因与练习建议"
@@ -599,10 +632,11 @@
     {
       "name": "i18n-copy-review",
       "source": "./i18n-copy-review",
-      "description": "【本地化】i18n 文案审校：占位符、复数规则、长度溢出、日期货币格式、RTL 与硬编码字符串。",
+      "description": "i18n 文案审校：占位符、复数规则、长度溢出、日期货币格式、RTL 与硬编码字符串。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "domain": "本地化",
       "permissions": [
         "读取多语言资源与界面文案",
         "输出问题清单，不改译文文件"
@@ -611,10 +645,11 @@
     {
       "name": "long-text-segmentation",
       "source": "./long-text-segmentation",
-      "description": "【本地化】长文分句翻译：切分、术语锚定、逐段翻译、回译校验与拼装，避免术语漂移。",
+      "description": "长文分句翻译：切分、术语锚定、逐段翻译、回译校验与拼装，避免术语漂移。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "domain": "本地化",
       "permissions": [
         "读取长文档",
         "输出分段表与术语表"
@@ -623,10 +658,11 @@
     {
       "name": "audio-denoise-chain",
       "source": "./audio-denoise-chain",
-      "description": "【影音】音频降噪链：afftdn / arnndn 与 loudnorm 参数，含过度降噪判据。arnndn 模型需自备。",
+      "description": "音频降噪链：afftdn / arnndn 与 loudnorm 参数，含过度降噪判据。arnndn 模型需自备。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "domain": "影音",
       "permissions": [
         "读取音频与噪声描述",
         "只产出命令，不执行转码"
@@ -635,10 +671,11 @@
     {
       "name": "image-batch-naming",
       "source": "./image-batch-naming",
-      "description": "【影音】图片批处理与命名：ImageMagick 与 Pillow 脚本，覆盖缩放、水印、EXIF 剥离与统一命名。",
+      "description": "图片批处理与命名：ImageMagick 与 Pillow 脚本，覆盖缩放、水印、EXIF 剥离与统一命名。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "domain": "影音",
       "permissions": [
         "读取图片目录与命名规则",
         "产出脚本，不覆盖原图"
@@ -647,10 +684,11 @@
     {
       "name": "lecture-outline",
       "source": "./lecture-outline",
-      "description": "【教学】讲义提纲：知识点拆层、课时与时间预算、练习配比与可观察的验收标准。",
+      "description": "讲义提纲：知识点拆层、课时与时间预算、练习配比与可观察的验收标准。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "domain": "教学",
       "permissions": [
         "读取主题与课时安排",
         "输出提纲，不代写讲义全文"
@@ -659,10 +697,11 @@
     {
       "name": "abstract-intro-polish",
       "source": "./abstract-intro-polish",
-      "description": "【学术写作】摘要与引言润色：按信息密度改写摘要，按漏斗结构重排引言，给前后对照。",
+      "description": "摘要与引言润色：按信息密度改写摘要，按漏斗结构重排引言，给前后对照。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "domain": "学术写作",
       "permissions": [
         "读取摘要与引言文本",
         "只润色表达，不改数据与结论"
@@ -671,10 +710,11 @@
     {
       "name": "lab-report-audit",
       "source": "./lab-report-audit",
-      "description": "【学术写作】实验报告审查：按数据完整性、图号引用、结论一致性与单位量纲打分并给扣分理由。",
+      "description": "实验报告审查：按数据完整性、图号引用、结论一致性与单位量纲打分并给扣分理由。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "内容创作",
+      "domain": "学术写作",
       "permissions": [
         "读取实验报告与图表",
         "输出评分表，不重做实验"
@@ -746,10 +786,11 @@
     {
       "name": "contract-clause-diff",
       "source": "./contract-clause-diff",
-      "description": "【法律合规】合同条款对比清单：责任、付款、违约、终止与管辖条款差异表与风险标注。",
+      "description": "合同条款对比清单：责任、付款、违约、终止与管辖条款差异表与风险标注。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "其他",
+      "domain": "法律合规",
       "permissions": [
         "读取合同文本",
         "输出比对清单，不构成法律意见"
@@ -758,10 +799,11 @@
     {
       "name": "privacy-policy-audit",
       "source": "./privacy-policy-audit",
-      "description": "【法律合规】隐私政策必查项审计：收集范围、目的、共享、留存、用户权利与跨境传输缺口。",
+      "description": "隐私政策必查项审计：收集范围、目的、共享、留存、用户权利与跨境传输缺口。",
       "version": "1.0.0",
       "author": "bamboo-echo",
       "category": "其他",
+      "domain": "法律合规",
       "permissions": [
         "读取隐私政策与数据清单",
         "输出缺口与补写草案，不判定合法性"
