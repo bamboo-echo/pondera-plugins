@@ -1,0 +1,23 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "color-contrast-mcp",
+  "version": "0.1.0",
+  "description": "配色对比度计算 MCP server 声明示例（示例，需自行提供 server）：按 WCAG 计算前景/背景组合并给出替代色。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "mcpServers": {
+      "color-contrast": {
+        "type": "stdio",
+        "command": "color-contrast-mcp",
+        "args": [
+          "--standard",
+          "wcag22"
+        ],
+        "auto_start": false,
+        "display_name": "Color Contrast",
+        "description": "示例，需自行提供 server：把 command 换成本机已实现的对比度计算服务可执行文件后才可连接。"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "rebalance-checklist",
+  "version": "1.0.0",
+  "description": "组合再平衡检查清单：按阈值判断是否触发、计算偏差、给出执行顺序与成本约束。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

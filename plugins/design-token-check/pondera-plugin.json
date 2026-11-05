@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "design-token-check",
+  "version": "1.0.0",
+  "description": "检查设计 token 一致性：命名层级、硬编码色值/间距、别名滥用与跨主题漂移。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "glossary-lint-mcp",
+  "version": "0.1.0",
+  "description": "术语一致性检查 MCP server 声明示例（示例，需自行提供 server）：对照术语表扫描文案中的不一致译名。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "mcpServers": {
+      "glossary-lint": {
+        "type": "stdio",
+        "command": "glossary-lint-mcp",
+        "args": [
+          "--glossary",
+          "glossary.json"
+        ],
+        "auto_start": false,
+        "display_name": "Glossary Lint",
+        "description": "示例，需自行提供 server：把 command 换成本机已实现的术语检查服务可执行文件后才可连接。"
+      }
+    }
+  }
+}

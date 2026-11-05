@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "subscription-audit",
+  "version": "1.0.0",
+  "description": "订阅支出审计：归一化周期、计算年化成本、识别重复与闲置订阅，给出降级/取消清单。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

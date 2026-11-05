@@ -2,22 +2,30 @@
 
 Pondera 桌面应用（Settings → 能力 → 插件 → 插件市场）读取的插件市场索引仓库。索引文件是 Claude 兼容的 `.claude-plugin/marketplace.json`，Pondera 用 `internal/pluginmarket` 解析，用 `internal/installsource` + `internal/pluginpkg` 安装插件包。
 
-当前收录 3 个可直接安装的示例插件：`go-concurrency-review`（纯 skill）、`changelog-writer`（纯 slash command）、`docs-lookup-mcp`（MCP server 声明示例）。
+当前收录 21 个插件，覆盖六个分类，每个分类都同时包含纯 skill、slash command、MCP server 声明三种形态；其中 6 条 MCP 条目只声明 server，不含实现（`description` 已注明「示例，需自行提供 server」）。
 
 ## 目录结构
 
 ```
 .claude-plugin/marketplace.json          # 索引（唯一入口）
-plugins/
-  go-concurrency-review/
-    pondera-plugin.json                  # 原生插件清单（v2）
-    skills/go-concurrency-review/SKILL.md
-  changelog-writer/
-    pondera-plugin.json
-    commands/changelog.md
-  docs-lookup-mcp/
-    pondera-plugin.json                  # 仅声明 mcpServers，不含 server 实现
+plugins/<插件名>/
+  pondera-plugin.json                    # 原生插件清单（v2）
+  skills/<技能名>/SKILL.md               # 纯 skill 型
+  commands/<命令名>.md                   # slash command 型
 ```
+
+## 收录清单
+
+| 分类 | skill | command | MCP 声明 |
+| --- | --- | --- | --- |
+| 开发工具 | go-concurrency-review、sql-migration-audit | api-contract-diff、dockerfile-slim | godoc-index-mcp |
+| 效率提升 | meeting-notes-to-tasks、long-doc-summary | weekly-report | calendar-digest-mcp |
+| 界面设计 | a11y-audit | design-token-check | color-contrast-mcp |
+| 调研分析 | paper-fast-read | competitor-brief | docs-lookup-mcp |
+| 内容创作 | blog-outline | changelog-writer | glossary-lint-mcp |
+| 其他 | subscription-audit | rebalance-checklist | ledger-import-mcp |
+
+精选（`featured: true`）6 条：`go-concurrency-review`、`sql-migration-audit`、`meeting-notes-to-tasks`、`a11y-audit`、`paper-fast-read`、`blog-outline`。
 
 ## 索引格式
 
@@ -134,5 +142,6 @@ Pondera 把索引源存在 `%APPDATA%\pondera\plugin-marketplace-source.json`，
 
 ## 已知限制
 
-- `docs-lookup-mcp` 只声明 MCP server，不含 server 实现（示例，需自行提供 server）。
+- 6 条 `*-mcp` 条目只声明 MCP server，不含 server 实现（示例，需自行提供 server）：`docs-lookup-mcp`、`godoc-index-mcp`、`calendar-digest-mcp`、`color-contrast-mcp`、`glossary-lint-mcp`、`ledger-import-mcp`。
+- `rebalance-checklist` 与 `subscription-audit` 只做计算与流程建议，不构成投资建议。
 - 市场只做索引与安装，不校验插件内部代码质量；安装第三方插件前请自行审查。

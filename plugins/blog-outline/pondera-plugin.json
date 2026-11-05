@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "blog-outline",
+  "version": "1.0.0",
+  "description": "技术博客大纲：锁定单一论点、搭建证据链、预设反例与读者画像，输出可写的大纲。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

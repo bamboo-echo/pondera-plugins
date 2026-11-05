@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "a11y-audit",
+  "version": "1.0.0",
+  "description": "按 WCAG 2.2 审计界面可访问性：语义结构、键盘路径、焦点管理、对比度与表单错误提示。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}

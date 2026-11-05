@@ -1,0 +1,23 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "ledger-import-mcp",
+  "version": "0.1.0",
+  "description": "账单 CSV 导入分类 MCP server 声明示例（示例，需自行提供 server）：读取账单并按规则归类到预算科目。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "mcpServers": {
+      "ledger-import": {
+        "type": "stdio",
+        "command": "ledger-import-mcp",
+        "args": [
+          "--dir",
+          "statements"
+        ],
+        "auto_start": false,
+        "display_name": "Ledger Import",
+        "description": "示例，需自行提供 server：把 command 换成本机已实现的账单导入服务可执行文件后才可连接。"
+      }
+    }
+  }
+}
