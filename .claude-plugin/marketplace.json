@@ -317,6 +317,18 @@
       ]
     },
     {
+      "name": "uv-unwrap-checklist",
+      "source": "./uv-unwrap-checklist",
+      "description": "【Blender】UV 展开检查清单：接缝、展开方法、重叠、拉伸与图素密度，附可运行的 bpy UV 脚本。需已安装 Blender。",
+      "version": "1.0.0",
+      "author": "bamboo-echo",
+      "category": "界面设计",
+      "permissions": [
+        "读取网格与贴图规格",
+        "只产出脚本与清单，不修改 .blend"
+      ]
+    },
+    {
       "name": "a11y-audit",
       "source": "./a11y-audit",
       "description": "按 WCAG 2.2 审计可访问性：语义结构、键盘路径、焦点管理、对比度与表单错误。",
@@ -411,6 +423,18 @@
       "permissions": [
         "读取 SQL 与执行计划",
         "不连接数据库、不执行语句"
+      ]
+    },
+    {
+      "name": "excel-pivot-formula",
+      "source": "./excel-pivot-formula",
+      "description": "【数据分析】Excel 透视表与公式配方：字段布局、SUMIFS/XLOOKUP 写法、刷新与校验规则。",
+      "version": "1.0.0",
+      "author": "bamboo-echo",
+      "category": "调研分析",
+      "permissions": [
+        "读取表结构与需求",
+        "只输出公式与布局，不改工作簿"
       ]
     },
     {

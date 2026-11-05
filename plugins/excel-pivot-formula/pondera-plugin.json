@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "excel-pivot-formula",
+  "version": "1.0.0",
+  "description": "【数据分析】Excel 透视表与公式配方：字段布局、SUMIFS/XLOOKUP/动态数组写法、刷新与校验规则，防止口径不一致。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 
 Pondera 桌面应用（Settings → 能力 → 插件 → 插件市场）读取的插件市场索引仓库。索引文件是 Claude 兼容的 `.claude-plugin/marketplace.json`，Pondera 用 `internal/pluginmarket` 解析，用 `internal/installsource` + `internal/pluginpkg` 安装插件包。
 
-当前收录 53 个插件，覆盖六个分类与 13 个领域，每个分类都同时包含纯 skill、slash command、MCP server 声明三种形态；其中 6 条 MCP 条目只声明 server，不含实现（`description` 已注明「示例，需自行提供 server」）。
+当前收录 55 个插件，覆盖六个分类与 13 个领域，每个分类都同时包含纯 skill、slash command、MCP server 声明三种形态；其中 6 条 MCP 条目只声明 server，不含实现（`description` 已注明「示例，需自行提供 server」）。
 
 领域归属写在 `description` 的 `【领域】` 前缀里（索引没有 `tags` 字段，写了也不会被解析），面板分类仍只用六类取值。
 
@@ -12,10 +12,10 @@ Pondera 桌面应用（Settings → 能力 → 插件 → 插件市场）读取�
 | --- | --- | --- |
 | 学术写作 | 3 | academic-paper-outline、citation-format-check、peer-review-response |
 | 数学建模 | 3 | modeling-paper-workflow、model-selection-matrix、sensitivity-analysis-checklist |
-| Blender | 3 | blender-python-geometry、blender-topology-audit、gltf-export-tuneup |
+| Blender | 4 | blender-python-geometry、blender-topology-audit、gltf-export-tuneup、uv-unwrap-checklist |
 | CAD | 3 | ezdxf-drawing-script、freecad-parametric-macro、drawing-annotation-standard |
 | 嵌入式 | 3 | stm32-init-review、kicad-netlist-check、serial-log-analysis |
-| 数据分析 | 2 | pandas-cleaning-template、sql-plan-review |
+| 数据分析 | 3 | pandas-cleaning-template、sql-plan-review、excel-pivot-formula |
 | 影音 | 2 | ffmpeg-edit-recipes、subtitle-proofread |
 | 教学 | 2 | quiz-generator、mistake-attribution |
 | 法律合规 | 2 | contract-clause-diff、privacy-policy-audit |
@@ -42,8 +42,8 @@ plugins/<插件名>/
 | --- | --- | --- | --- |
 | 开发工具 | go-concurrency-review、sql-migration-audit、stm32-init-review、systemd-unit-audit、log-triage-runbook、repro-steps-standardizer、flutter-layout-audit | api-contract-diff、dockerfile-slim、kicad-netlist-check、serial-log-analysis、nginx-config-check、test-case-gap-analysis、unity-asset-naming | godoc-index-mcp |
 | 效率提升 | meeting-notes-to-tasks、long-doc-summary | weekly-report | calendar-digest-mcp |
-| 界面设计 | a11y-audit、blender-python-geometry、ezdxf-drawing-script | design-token-check、blender-topology-audit、gltf-export-tuneup、freecad-parametric-macro、drawing-annotation-standard | color-contrast-mcp |
-| 调研分析 | paper-fast-read、modeling-paper-workflow、pandas-cleaning-template | competitor-brief、model-selection-matrix、sensitivity-analysis-checklist、sql-plan-review | docs-lookup-mcp |
+| 界面设计 | a11y-audit、blender-python-geometry、ezdxf-drawing-script | design-token-check、blender-topology-audit、gltf-export-tuneup、freecad-parametric-macro、drawing-annotation-standard、uv-unwrap-checklist | color-contrast-mcp |
+| 调研分析 | paper-fast-read、modeling-paper-workflow、pandas-cleaning-template | competitor-brief、model-selection-matrix、sensitivity-analysis-checklist、sql-plan-review、excel-pivot-formula | docs-lookup-mcp |
 | 内容创作 | blog-outline、academic-paper-outline、subtitle-proofread、mistake-attribution、long-text-segmentation | changelog-writer、citation-format-check、peer-review-response、ffmpeg-edit-recipes、quiz-generator、i18n-copy-review | glossary-lint-mcp |
 | 其他 | subscription-audit、privacy-policy-audit | rebalance-checklist、contract-clause-diff | ledger-import-mcp |
 

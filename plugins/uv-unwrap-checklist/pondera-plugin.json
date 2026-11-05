@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "uv-unwrap-checklist",
+  "version": "1.0.0",
+  "description": "【Blender】UV 展开检查清单：接缝、展开方法、重叠、拉伸与图素密度，附可运行的 bpy UV 脚本。本插件不自带建模能力，需用户已安装 Blender。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}
