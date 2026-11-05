@@ -1,0 +1,54 @@
+{
+  "name": "pondera-plugins",
+  "owner": {
+    "name": "bamboo-echo",
+    "url": "https://github.com/bamboo-echo"
+  },
+  "metadata": {
+    "description": "Pondera 官方示例插件市场：并发审查、变更日志、文档检索。",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "go-concurrency-review",
+      "source": "./go-concurrency-review",
+      "description": "审查 Go 代码的并发安全：数据竞争、死锁、goroutine 泄漏、context 取消与锁粒度。",
+      "version": "1.0.0",
+      "author": "bamboo-echo",
+      "category": "开发工具",
+      "featured": true,
+      "permissions": [
+        "读取工作区源码",
+        "只读审查，不写入文件"
+      ]
+    },
+    {
+      "name": "changelog-writer",
+      "source": "./changelog-writer",
+      "description": "从 git 提交记录生成结构化 CHANGELOG：按类型分组、标注破坏性变更、不编造内容。",
+      "version": "1.0.0",
+      "author": {
+        "name": "bamboo-echo",
+        "url": "https://github.com/bamboo-echo"
+      },
+      "category": "内容创作",
+      "permissions": [
+        "读取 git 提交记录",
+        "生成 CHANGELOG 文档"
+      ]
+    },
+    {
+      "name": "docs-lookup-mcp",
+      "source": "./docs-lookup-mcp",
+      "description": "文档检索 MCP server 声明示例（示例，需自行提供 server）：把本地文档目录接入会话检索。",
+      "version": "0.1.0",
+      "author": "bamboo-echo",
+      "category": "调研分析",
+      "permissions": [
+        "读取本地文档目录",
+        "启动外部 MCP 进程"
+      ]
+    }
+  ]
+}

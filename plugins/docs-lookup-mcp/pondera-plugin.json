@@ -1,0 +1,23 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "docs-lookup-mcp",
+  "version": "0.1.0",
+  "description": "文档检索 MCP server 声明示例（示例，需自行提供 server）：把本地文档目录接入会话检索。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "mcpServers": {
+      "docs-lookup": {
+        "type": "stdio",
+        "command": "docs-lookup-mcp",
+        "args": [
+          "--root",
+          "."
+        ],
+        "auto_start": false,
+        "display_name": "Docs Lookup",
+        "description": "示例，需自行提供 server：把 command 换成本机 MCP server 的可执行文件后才会真正连接。"
+      }
+    }
+  }
+}

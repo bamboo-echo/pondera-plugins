@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "changelog-writer",
+  "version": "1.0.0",
+  "description": "从 git 提交记录生成结构化 CHANGELOG：按类型分组、标注破坏性变更、不编造内容。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "commands": [
+      "commands"
+    ]
+  }
+}

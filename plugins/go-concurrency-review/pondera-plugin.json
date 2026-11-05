@@ -1,0 +1,13 @@
+{
+  "apiVersion": "pondera.io/plugin/v2",
+  "name": "go-concurrency-review",
+  "version": "1.0.0",
+  "description": "审查 Go 代码的并发安全：数据竞争、死锁、goroutine 泄漏、context 取消与锁粒度。",
+  "homepage": "https://github.com/bamboo-echo/pondera-plugins",
+  "repository": "https://github.com/bamboo-echo/pondera-plugins",
+  "contributes": {
+    "skills": [
+      "skills"
+    ]
+  }
+}
